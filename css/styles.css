@@ -9061,3 +9061,7 @@ ul.about-contact * {
   color: #212529;
   text-decoration: underline;
 }
+
+body {
+  min-height: 100vh;
+}
