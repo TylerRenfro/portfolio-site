@@ -12,3 +12,14 @@ ul.about-contact * {
 body {
     min-height: 100vh;
 }
+
+.case-study-img {
+    border: solid 1px rgba(#666666, .3);
+}
+
+.case-study-img-note {
+    background: #F5F7FA;
+    padding: 5px 15px;
+    border: solid 1px rgba(#666666, .3);
+    border-top: none;
+}
