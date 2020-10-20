@@ -1,7 +1,24 @@
 @import "bootstrap";
 
-nav.navbar * {
+nav.main-nav {
+    padding: 2em 0;
     color: black;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        margin-bottom: 1em;
+    }
+
+    .about,
+    .work {
+        padding: 1em 0;
+        border-bottom: solid .5px rgba(#666666, .3);
+    }
+
+    .work {
+        border-top: solid .5px rgba(#666666, .3);
+    }
 }
 
 ul.about-contact * {
@@ -28,7 +45,8 @@ body {
     background-color: #4A4DB3;
 
     img {
-        width: 300px;
+        width: 400px;
+        max-width: 90%;
         padding: 50px;
     }
 }
@@ -37,7 +55,9 @@ body {
     background-color: #93e79a;
 
     img {
-        width: 300px;
+        width: 400px;
+        max-width: 90%;
         padding: 50px;
     }   
 }
+

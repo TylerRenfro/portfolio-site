@@ -9053,8 +9053,23 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-nav.navbar * {
+nav.main-nav {
+  padding: 2em 0;
   color: black;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    margin-bottom: 1em;
+  }
+  .about,
+  .work {
+    padding: 1em 0;
+    border-bottom: solid 0.5px rgba(102, 102, 102, 0.3);
+  }
+  .work {
+    border-top: solid 0.5px rgba(102, 102, 102, 0.3);
+  }
 }
 
 ul.about-contact * {
@@ -9082,7 +9097,8 @@ body {
 }
 
 .next-metro-gif-container img {
-  width: 300px;
+  width: 400px;
+  max-width: 90%;
   padding: 50px;
 }
 
@@ -9091,6 +9107,7 @@ body {
 }
 
 .gda-gif-container img {
-  width: 300px;
+  width: 400px;
+  max-width: 90%;
   padding: 50px;
 }
